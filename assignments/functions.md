@@ -103,6 +103,8 @@ function checkAge(age) {
   // ...
   return confirm("Did parents allow you?");
 }
+//There is no difference in the behaviour of these two variants, if block if it gets executed then it will return true and come out of 
+//function whereas if block is false in that case the next return statement will get executed thus keeping the behaviour intact.
 ```
 <!-- ANSWER -->
 //Yes
@@ -110,6 +112,7 @@ function checkAge(age) {
 Is there any difference in the behavior of these two variants? If there is what is that?
 <!-- ANSWER -->
 --
+
 
 5. 🎖 Write a function pow(x,n) that returns x in power n.
 
